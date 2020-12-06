@@ -1,0 +1,47 @@
+.calendar_head {
+  display: flex;
+  text-align: center;
+}
+
+.calendar_left {
+  flex: 1 1 10%;
+  cursor: pointer;
+}
+
+.calendar_title {
+  flex: 1 1 80%;
+  cursor: pointer;
+}
+
+.calendar_right {
+  flex: 1 1 10%;
+  cursor: pointer;
+}
+
+.calendar_body {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar_row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.calendar_box {
+  display: inline-flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+}
+
+.calendar_back {
+  color: gray;
+}
+
+.calendar_selected {
+  background-color: blue;
+}
+
+.calendar_text {
+}
